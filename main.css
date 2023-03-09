@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(heaven.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20%;
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(42, 196, 238);
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 900;
+    color: rgb(178, 172, 248);
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: .4em;
+    color: rgb(246, 239, 239);
+    padding: 1.2em 2em;
+    font-weight: 800;
+    letter-spacing: .05em;
+    margin-top: 2em;
+    background-color: rgb(42, 196, 238);
+    transition: all 0.2s ease-in;
+}
+
+#increment-btn:active,
+#save-btn:active{
+    padding: 1.8em 2.7em;
+}
+
+#save-el {
+    margin: 2em 30%;
+    font-size: 1.7em;
+    width: 40%;
+    font-weight: 900;
+    color: white;
+    border-radius: .2em;
+    background-color: rgb(43, 168, 203);
+    transition: all .5s ease-out;
+}
+
+#save-el:hover {
+    padding: .5em 1.2em;
+}
